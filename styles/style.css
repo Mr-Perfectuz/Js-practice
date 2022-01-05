@@ -1,0 +1,64 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox-container-1{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap ;
+
+}
+
+.flexbox-container-1 div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container-2{
+    border: 1px solid brown;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flexbox-container-2{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.flexbox-container-2 img{
+    margin: 10px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 10px 50px black;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.container-3{
+    text-align: center;
+}
+
+.flexbox-rps img:hover{
+    box-shadow: 0 10px 10px blue;
+}
